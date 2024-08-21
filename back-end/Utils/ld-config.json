@@ -1,0 +1,16 @@
+{
+    "logs": {
+        "strategy": "noDate"
+    },
+    "agent": {
+        "default": "local",
+        "profiles": {
+            "local":{},
+            "remote":{
+                "browserUrl": "http://localhost:9214"
+            },
+            "command":{},
+            "docs":{}
+        }
+    }
+}

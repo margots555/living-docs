@@ -1,0 +1,10 @@
+{
+    "presets": ["@babel/preset-env", 
+        // { "loose": true, //https://babeljs.io/docs/babel-preset-env#modules
+        // "modules": true}
+        ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime", {
+            "regenerator": true}]
+        ]
+}
